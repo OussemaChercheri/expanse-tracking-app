@@ -9,6 +9,8 @@ import { RegisterComponent } from './auth/register/register.component';
 import { HomeComponent } from './views/home/home.component';
 import { NavbarComponent } from './layouts/navbar/navbar.component';
 import { SidenavComponent } from './layouts/sidenav/sidenav.component';
+import { TranscpageComponent } from './views/transcpage/transcpage.component';
+import { FooterComponent } from './layouts/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { SidenavComponent } from './layouts/sidenav/sidenav.component';
     ForgetPasswordComponent,
     HomeComponent,
     NavbarComponent,
-    SidenavComponent
+    SidenavComponent,
+    TranscpageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
